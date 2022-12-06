@@ -1,0 +1,23 @@
+.container {
+    width: 50vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.content {
+    width: 66vw;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.skill {
+    margin-bottom: 4vh;
+}
+
+.search {
+    border-color: #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 99px;
+    width: 15vw;
+    height: 5vh;
+}
