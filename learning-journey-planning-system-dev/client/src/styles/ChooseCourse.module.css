@@ -1,0 +1,17 @@
+.selectionLabel {
+    text-align: center;
+    margin: 2vh 0 2vh 0;
+    color: #3649F9;
+    font-weight: 700;
+}
+
+.selectionContent {
+    font-weight: 400;
+}
+
+.selectedButton {
+    /* background-color: #3649F9;
+    color: #FFF; */
+    margin-bottom: 2vh;
+    width: 12vw;
+}

@@ -1,0 +1,91 @@
+.content {
+    width: 66vw;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.step {
+    width: 50vw;
+    margin: auto;
+}
+
+.selection {
+    text-align: center;
+    color: #3649F9;
+    font-weight: 700;
+    margin: 3vh 0 3vh 0;
+}
+
+.selectionLabel {
+    margin: 0 0 1vh 0;
+}
+
+.selectionContent {
+    font-weight: 400;
+}
+
+.skillRow {
+    display: flex;
+}
+
+.selectedSkill {
+    margin-top: 2vh;
+    width: 12vw;
+    height: fit-content;
+    white-space: normal;
+}
+
+.selectedSkill:hover {
+    color: #FFF;
+    background-color: #3649F9;
+}
+
+.err {
+    color: #FF3131;
+    margin: 2vh 0 2vh 60vw;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vw;
+}
+
+.back {
+    margin-right: 1vw;
+}
+
+.modalImg {
+    display: block;
+    margin: 2vh auto 3vh auto
+}
+
+.modalContent {
+    font-weight: 500;
+    width: 17vw;
+    margin: 0 auto 4vh auto;
+}
+
+.modalTitle {
+    font-size: 2.5vh;
+    color: #20AE5C;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modalErr {
+    color: #FF3131;
+    margin-top: 2vh;
+}
+
+.modalBtn,
+.modalBtn:hover {
+    display: block;
+    margin: 0 auto 3vh auto;
+    width: 8vw;
+    background-color: #20AE5C;
+    border-color: #20AE5C;
+    color: #FFF;
+    font-weight: 500;
+}

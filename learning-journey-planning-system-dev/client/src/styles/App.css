@@ -1,0 +1,121 @@
+.brand {
+  margin: 5vh 0 5vh 1.5vw;
+  color: white;
+  font-size: 1.3vw;
+  font-weight: 500;
+  display: flex;
+}
+
+.icon {
+  width: 3vw;
+  align-self: center;
+}
+
+.ant-layout,
+.ant-layout-sider {
+  background-color: #3649F9;
+}
+
+.ant-menu {
+  background: #3649F9;
+  text-align: end;
+  border-right: 0;
+  color: white;
+  font-weight: 500;
+}
+
+#root .ant-menu-item {
+  display: inline-block;
+  width: 85%;
+  text-align: start;
+  border-radius: 2vw 0 0 2vw;
+}
+
+#root .ant-menu-item::after {
+  border-right: 0;
+}
+
+#root .ant-menu-item:hover,
+.ant-menu-title-content>.menu-item-link:hover {
+  color: black;
+}
+
+#root .ant-menu-item-selected {
+  background-color: white;
+  color: black;
+}
+
+.ant-menu-title-content>.menu-item-link {
+  color: white;
+}
+
+.ant-menu-item-selected .menu-item-link {
+  color: black;
+}
+
+.ant-layout-content {
+  background-color: white;
+  height: 95vh;
+  margin: 2.5vh 1.5vw 2.5vh 0;
+  border-radius: 2vw;
+  padding: 3vw;
+  overflow-y: auto;
+}
+
+#root .ant-steps-item-title {
+  color: #3649F9;
+}
+
+h1,
+label {
+  font-weight: 700;
+}
+
+.ant-tabs {
+  width: 60vw;
+  margin: auto;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active>.ant-tabs-tab-btn {
+  font-weight: 700;
+  color: #3649F9;
+}
+
+.ant-tabs-ink-bar {
+  background-color: #3649F9;
+}
+
+.ant-tabs-tab+.ant-tabs-tab {
+  margin: 0;
+}
+
+.ant-tabs-tab-btn {
+  width: 20vw;
+  text-align: center;
+  color: #808080;
+}
+
+.ant-btn {
+  border-radius: 10px;
+}
+
+.ant-btn-primary,
+.ant-btn-primary:focus {
+  border-color: #3649F9;
+  background-color: #3649F9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ant-btn-primary:hover,
+.ant-btn-default,
+.ant-btn-default:hover {
+  border-color: #3649F9;
+  color: #3649F9;
+  background-color: #FFF;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.ant-table-thead>tr>th {
+  font-weight: bold;
+  color: #3649F9;
+}
